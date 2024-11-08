@@ -1,0 +1,21 @@
+{
+  "name": "serve-json",
+  "description": "A simple HTTP server for static JSON files.",
+  "version": "1.0.0",
+  "author": "Jon LaBelle",
+  "license": "MIT",
+  "private": true,
+  "main": "src/app.mjs",
+  "type": "module",
+  "scripts": {
+    "serve": "node src/app.mjs",
+    "update": "npx npm-check-updates -u -i",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  }
+}
