@@ -33,18 +33,18 @@ To start the server, run the following command:
 npm serve
 ```
 
-## Docker
+## Container
 
-### Running with Docker
+### Running in a Container
 
-To run the server in a Docker container, build the image and run the container:
+To run the server in a container, build the image and run the container:
 
 ```console
-# Build the Docker image
-docker build -t serve-json .
+# Build the image
+docker|podman|nerdctl build -t serve-json .
 
-# Run the Docker container
-docker run -p 3000:3000 serve-json
+# Run the container
+docker|podman|nerdctl run -p 3000:3000 serve-json
 ```
 
 ## License

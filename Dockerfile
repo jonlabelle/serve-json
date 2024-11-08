@@ -13,4 +13,4 @@ ENV RUNNING_IN_DOCKER=true
 
 EXPOSE 3000
 
-CMD ["npm", "serve"]
+CMD ["npm", "run", "serve"]
