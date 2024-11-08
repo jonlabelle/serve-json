@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "express": "latest",
-    "open": "latest"
+    "open": "latest",
+    "ejs": "latest"
   },
   "devDependencies": {
     "prettier": "latest"
