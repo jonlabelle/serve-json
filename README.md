@@ -4,7 +4,9 @@
 
 > A simple HTTP server for static JSON files. Simply drop your JSON files in the [`src/data`](src/data) directory and start serving!
 
-Check out the [sample JSON file](src/data/sample.json) that comes with the project, or [start the server](#starting-the-server) and access it at [`http://localhost:3000/data/sample.json`](http://localhost:3000/data/sample.json).
+Check out the [sample JSON file](src/data/sample.json) that comes with the project, or [start the server](#starting-the-server) to browse the files in the `data/` directory.
+
+![Server JSON screenshot](screenshot.png 'Server JSON screenshot')
 
 ## Installation
 

@@ -13,7 +13,8 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "open": "latest"
   },
   "devDependencies": {
     "prettier": "latest"
